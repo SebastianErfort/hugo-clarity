@@ -1,12 +1,12 @@
 [[main]]
-  name = "Início"
+  name = "Start"
   url = ""
   weight = -110
 
-# [[main]]
-#   name = "Arquivos"
-#   url = "post/rich-content/"
-#   weight = -109
+[[main]]
+  name = "Archiv"
+  url = "post/rich-content/"
+  weight = -109
 
 # Submenus are done this way: parent -> identifier
 [[main]]
@@ -23,6 +23,6 @@
   url = "https://twitter.com/"
 
 [[main]]
-  name = "Sobre"
+  name = "About"
   url = "about/"
   weight = -107
