@@ -60,12 +60,10 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
           cd "$OLDPWD"
-          cp -a website/public ./public
-          rm -rf website/public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./public
+          path: ./website/public
 
   # Deployment job
   deploy:
